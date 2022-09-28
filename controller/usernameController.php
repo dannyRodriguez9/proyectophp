@@ -21,6 +21,11 @@
             return ($this->model->show($id)!=false) ? $this->model->show($id) : header("Location:index.php");
 
         }
+
+        public function index()
+        {
+            return ($this->model->index()) ? $this->model->index() : false;
+        }
     
     }
 

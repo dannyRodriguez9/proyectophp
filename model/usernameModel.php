@@ -19,11 +19,19 @@
 
         public function show($id)
         {
-            $stament=$this->PDO->prepare("SELECT * FROM username where id=:id limit 1");
+            $stament=$this->PDO->prepare("SELECT * FROM username where id = :id limit 1");
             $stament->bindParam(":id",$id);
             return ($stament->execute()) ? $stament->fetch() : false;
 
         }
+
+        public function index()
+        {
+            $stament = $this->PDO->prepare("SELECT * from username");
+            return ($stament->execute()) ? $stament->fetchAll() : false;
+        }
+
+
     }
 
 
