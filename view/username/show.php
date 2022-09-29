@@ -27,7 +27,7 @@ $date=$obj->show($_GET["id"]);
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
-            <a href="delete.php?id<?=$date["id"]?>"class="btn btn-danger">Eliminar</a>
+            <a href="delete.php?id=<?=$date["id"]?>" class="btn btn-danger">Eliminar</a>
             <!--<button type="button" class="btn btn-danger">Eliminar</button>-->
         </div>
         </div>
