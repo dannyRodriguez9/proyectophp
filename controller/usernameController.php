@@ -5,7 +5,7 @@
         private $model;
         public function __construct()
         {
-            require_once("C://xampp/htdocs/udemy/proyecto/model/usernameModel.php");
+            require_once("C://xampp/htdocs/proyectophp/model/usernameModel.php");
              $this->model= new userNameModel();
         }
 

@@ -1,6 +1,6 @@
 <?php
-    require_once("C://xampp/htdocs/udemy/proyecto/view/head/head.php");
-    require_once("C://xampp/htdocs/udemy/proyecto/controller/usernameController.php");
+    require_once("C://xampp/htdocs/proyectophp/view/head/head.php");
+    require_once("C://xampp/htdocs/proyectophp/controller/usernameController.php");
     $obj= new userNameController();
     $user=$obj->show($_GET["id"]);
 ?>

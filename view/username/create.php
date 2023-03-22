@@ -1,5 +1,5 @@
 <?php
-    require_once("C://xampp/htdocs/udemy/proyecto/view/head/head.php");
+    require_once("C://xampp/htdocs/proyectophp/view/head/head.php");
 ?>
 
     <form action="store.php" method="post" autocomplete="off">
@@ -12,5 +12,5 @@
     </form>
 
 <?php
-    require_once("C://xampp/htdocs/udemy/proyecto/view/head/footer.php");
+    require_once("C://xampp/htdocs/proyectophp/view/head/footer.php");
 ?>

@@ -5,7 +5,7 @@
         private $PDO;
         public function __construct()
         {
-            require_once("C://xampp/htdocs/udemy/proyecto/conexionBD/db.php");
+            require_once("C://xampp/htdocs/proyectophp/conexionBD/db.php");
             $con= new db();
             $this->PDO=$con->conexion();
         }

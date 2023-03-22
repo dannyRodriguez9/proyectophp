@@ -1,14 +1,14 @@
 <?php
 
-require_once("C://xampp/htdocs/udemy/proyecto/view/head/head.php");
-require_once("C://xampp/htdocs/udemy/proyecto/controller/usernameController.php");
+require_once("C://xampp/htdocs/proyectophp/view/head/head.php");
+require_once("C://xampp/htdocs/proyectophp/controller/usernameController.php");
 $obj= new userNameController();
 $rows=$obj->index();
 
 ?>
 
 <div class="mb-3">
-    <a href="/udemy/proyecto/view/username/create.php" class="btn btn-primary">Agregar nuevo usuario</a>
+    <a href="/proyectophp/view/username/create.php" class="btn btn-primary">Agregar nuevo usuario</a>
 </div>
 
 <!--Tabla-->
