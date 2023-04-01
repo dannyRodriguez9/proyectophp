@@ -3,7 +3,7 @@
    class db
    {
 
-    private $host="localhost";
+    private $host="localhost:3308";
     private $dbname="prueba";
     private $user="root";
     private $password="";
